@@ -1,18 +1,20 @@
 {
-  "name": "ziezo-backend",
-  "private": true,
-  "version": "0.0.0",
-  "type": "module",
+  "name": "lab5",
+  "version": "1.0.0",
+  "description": "Development 5 API - Lab 5",
+  "main": "server.js",
   "scripts": {
-    "dev": "vite",
-    "build": "vite build",
-    "preview": "vite preview"
+    "dev": "nodemon server.js"
   },
+  "author": "",
+  "license": "ISC",
   "dependencies": {
-    "vue": "^3.2.45"
+    "cors": "^2.8.5",
+    "express": "^4.18.2",
+    "mongoose": "^6.7.3"
   },
   "devDependencies": {
-    "@vitejs/plugin-vue": "^4.0.0",
-    "vite": "^4.0.0"
+    "dotenv": "^16.0.3",
+    "nodemon": "^2.0.20"
   }
 }
